@@ -1,0 +1,77 @@
+/* reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    --primaryFont: 'Figtree', sans-serif;
+    --yellow: #F4D04E;
+    --pureWhite: #FFF;
+    --black: #111;
+    --grey: #7F7F7F;
+}
+
+/* Typography settings */
+
+.textSmall,.textMedium,.textLarge {
+    font-family: var(--primaryFont);
+}
+
+
+@media (500px < width) {
+    .textSmall {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .textMedium {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .textLarge {
+        font-size: 24px;
+        font-weight: 800;
+    }
+}
+
+@media (width < 500px) {
+    .textSmall {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .textMedium {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .textLarge {
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+
+.textBold {
+    font-weight: 700;
+}
+
+/* color settings */
+
+.bgWhite {
+    background-color: var(--pureWhite);
+}
+
+.bgYellow {
+    background-color: var(--yellow);
+}
+
+.textBlack {
+    color: var(--black);
+}
+
+.textGrey {
+    color: var(--grey);
+}
