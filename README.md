@@ -18,7 +18,7 @@ a simple blog card application
 
 ## Live Demo
 
-[Check out the live demo here:](https://blog-preview-card-focuscode.vervel.app)
+[Check out the live demo here:](https://blog-preview-card-focuscode.vercel.app)
 
 ## Project Summary
 
