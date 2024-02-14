@@ -4,8 +4,17 @@ a simple blog card application
 
 ## Screenshot
 
-![Desktop Screenshot](screenshot1.png)
-![Mobile Screenshot](screenshot2.png)
+<p align="center"><b>Desktop Design</b></p>
+
+<p align="center">
+  <img src="screenshot1.png" alt="Desktop Screenshot">
+</p>
+
+<p align="center"><b>Mobile Design</b></p>
+
+<p align="center">
+  <img src="screenshot2.png" alt="Mobile Screenshot">
+</p>
 
 ## Live Demo
 
@@ -15,4 +24,3 @@ a simple blog card application
 
 - A simple html css work(UI)
 - Responsive design
-
